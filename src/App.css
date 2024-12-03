@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.post-button {
+  background-color: rgb(52, 52, 185);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.post-button.delete{
+  background-color: red;
+  margin-left: 6px;
+}
+
+.post-button:hover {
+  color: white;
+}
+
+.post-view {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  position: relative;
+  min-width: 320px;
+}
+
+.post-view .created {
+  font-size: 10pt;
+  font-weight: 400;
+}
+
+.post-view .user-name {
+  font-size: 10pt;
+  font-weight: 600;
+  color: cornflowerblue;
+}
+
+.post-view.new {
+  display: flex;
+  justify-content: end;
+}
+
+.post-view .buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.post-view .close{
+  cursor: pointer;
+}
+
+.post-view .close:hover{
+  color: red;
+}
+
+.close-cont {
+  display: flex;
+  justify-content: end;
+}
+
+.post-view textarea {
+  background-color: white;
+  color: black;
+  min-width: 300px;
+  min-height: 50px;
+}
+
+.post-view .content {
+  white-space: pre-wrap;
+  text-align: left;
+  border: 1px black solid;
+
+}
